@@ -1,0 +1,203 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+body{
+    margin: 0px;
+}
+
+header{
+    height: 70px;
+    background-color:#eeddd4;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+#logo{
+    width:200px;
+    height: 200px;
+    transform:translateY(-45px);
+}
+
+#HamburgerLogo{
+    width: 25px;
+    transform: translateX(140px) translateY(-150px);
+}
+
+#first-section{
+    height: 700px;
+    background-color: #4a7c9e;
+    padding-top: 70px;
+    color:#ffffff;
+    padding-left: 5px;
+}
+
+#first-section h1{
+    margin-top: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+#buttonOne{
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #d98f6c;
+    color:#ffffff;
+}
+
+#buttonTwo{
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #acacac;
+    opacity: 0.9;
+    color: #ffffff;
+}
+
+#Wheelchair{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.Title{
+    text-align: center;
+    margin-top: 20px;
+    color:#4a7c9e;
+    font-size: 45px;
+}
+
+.para{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-left: 5px;
+}
+
+.divider{
+    width: 350px;
+    height: 200px;
+    background-color: #eeddd4;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.frame{
+    width: 50px;
+    height: 50px;
+    background-color:#4a7c9e;
+    border-radius: 7px;
+    padding-top: 5px;
+}
+
+.DivTitle{
+    color:#4a7c9e;
+    margin-top: 10px;
+}
+
+.para2{
+    margin-top: 10px;
+}
+
+.divider img{
+    width: 40px;
+    margin: auto;
+    display: block;
+}
+
+#third-section{
+    width: 100%;
+    height: 1700px;
+    background-color:#eeddd4;
+    padding-left: 5px;
+    padding-top: 50px;
+    margin-top: 100px;
+}
+
+.divident{
+    color:#4a7c9e;
+    font-size: 50px;
+}
+
+.aligner{
+    margin-top: 15px;
+}
+
+.values img{
+    width: 30px;
+    margin-top: 10px;
+}
+
+.values{
+    display: flex;
+}
+
+.parapara{
+    transform:translateY(15px) translateX(10px);
+}
+
+#com{
+    width: 360px;
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.WhiteDiv{
+    width: 350px;
+    height: 200px;
+    background-color: #ffffff;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding-top: 35px;
+}
+
+.Stat{
+    text-align: center;
+    font-size: 60px;
+    color:#4a7c9e;
+}
+
+.divPara{
+    text-align: center;
+    font-size: 20px;
+}
+
+#fourth-section{
+    height: 400px;
+}
+
+.alignment{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.para3{
+    text-align: center;
+}
+
+#Peeps{
+    width: 350px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    border-radius: 20px;
+}
