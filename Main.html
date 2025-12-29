@@ -12,8 +12,26 @@
     <header>
         <img src="Images/Kopano logo.png" alt="Kopano Logo" id="logo">
         <img src="Images/hamburger-svgrepo-com.png" alt="hamburger logo" id="HamburgerLogo">
+        <div id = "Burger">
+            <nav>
+     <ul class = "burgerLinks">
+            <li>
+            <a href="#first-section">Home</a>
+            </li>
+            <li>
+            <a href="#second-section">About</a>
+            </li>
+            <li>
+            <a href="#third-section">Services</a>
+            </li>
+            <li>
+            <a href="#fourth-section">Contact</a>
+            </li>
+        </nav> 
+    </ul>
+        </div>
     </header>
-
+<main>
     <section id="first-section">
         <div>
             <h1>Empowering lives through support and care</h1>
@@ -122,7 +140,81 @@
         <p class = "para3">Have questions or want to learn more about our services?</p>    
         <p class = "para3">We're here to help.</p>
         <img src = "Images/KopanoPeople.jpeg" alt = "Community People" id = "Peeps">
+        <div class = "Push">
+            <h1 class = "DivTitle">Address</h1>
+            <p>123 Community Drive</p>
+            <p> Suite 100</p>
+            <p>Your City, ST 12345</p>
+        </div>  
+        <div class = "Push">
+            <h1 class = "DivTitle">Phone</h1>
+            <p>123-902-2889</p>
+        </div>  
+        <div class = "Push">
+            <h1 class = "DivTitle">Email</h1>
+            <p>kopano@disabilitycenter.org</p>
+        </div>  
+        <div class = "Push">
+            <h1 class = "DivTitle">Hours</h1>
+            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
+            <p>Saturday: 9:00 AM - 2:00 PM</p>
+            <p>Sunday: Closed</p>
+        </div>  
+
+        <fieldset>
+            <form action="Submit">
+            <label for="Name">Name*</label>
+            <input type="text" placeholder = "Name" required>
+            <label for="Email">Email*</label>
+            <input type="text" placeholder = "Email" required>
+            <label for="Email">Phone*</label>
+            <input type="number" placeholder = "Phone" required>
+            <label for="Message">Message*</label>
+            <textarea name="Feedback" id="textbox" placeholder = "Feedback or questions"></textarea>
+            <button type="submit" id = "submitBtn">Submit</button>
+            </form>
+        </fieldset>
     </section>
+    </main>
+    <footer>
+        <h1 class = "footerHead">Community Disability Center</h1>
+        <p class = "Pgraph">Dedicated to empowering individuals with disabilities through comprehensive support, advocacy, and community integration.</p>
+        <p class = "Pgraph">Quick links</p> 
+        <nav>
+     <ul class = "footerNav">
+            <li>
+            <a href="#first-section">Home</a>
+            </li>
+            <li>
+            <a href="#second-section">About</a>
+            </li>
+            <li>
+            <a href="#third-section">Services</a>
+            </li>
+            <li>
+            <a href="#fourth-section">Contact</a>
+            </li>
+        </nav> 
+    </ul>
+        <p class = "Pgraph">Resources</p> 
+        <nav>
+     <ul class = "footerNav">
+            <li>
+            <a href="#">Accessibility Guide</a>
+            </li>
+            <li>
+            <a href="#">Support Groups</a>
+            </li>
+            <li>
+            <a href="#">Event calendar</a>
+            </li>
+            <li>
+            <a href="#">FAQ</a>
+            </li>
+        </nav> 
+    </ul>
+    </footer>
+    <script src = "script.js"></script>
 </body>
 
 </html>
