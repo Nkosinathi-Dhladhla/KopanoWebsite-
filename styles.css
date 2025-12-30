@@ -35,15 +35,16 @@ header{
 
 #HamburgerLogo{
     width: 25px;
-    transform: translateX(140px) translateY(-150px);
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #first-section{
-    min-height: 700px;
+    min-height: 800px;
     background-color: #4a7c9e;
-    padding-top: 70px;
     color:#ffffff;
-    padding-left: 5px;
 }
 
 #first-section h1{
@@ -53,10 +54,10 @@ header{
 
 #buttonOne{
     margin-top: 20px;
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 40px;
     font-size: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     background-color: #d98f6c;
     color:#ffffff;
@@ -64,18 +65,33 @@ header{
 
 #buttonTwo{
     margin-top: 20px;
-    width: 70px;
-    height: 30px;
+    width: 80px;
+    height: 40px;
     font-size: 10px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     background-color: #acacac;
     opacity: 0.9;
     color: #ffffff;
 }
 
+#buttonOne:active{
+    transform: scale(0.9);
+}
+
+#buttonTwo:active{
+    transform: scale(0.9);
+}
+
+.small{
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
 #Wheelchair{
-    width: 300px;
+    width: 95%;
+    margin: auto;
+    display: block;
     margin-top: 20px;
     border-radius: 20px;
 }
@@ -102,6 +118,11 @@ header{
     border-radius: 20px;
     margin-bottom: 20px;
     padding: 10px;
+}
+
+.divider:hover{
+    background-color: #eeddd4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .frame{
@@ -290,8 +311,160 @@ a {
     color:#333333;
 }
 
+.burgerLinks a:hover{
+    color: #acacac;
+}
+
 .burgerLinks li{
     margin-bottom: 13px;
     margin-left: 5px;
     list-style: none;
+}
+
+
+@media(min-width: 601px ){
+    #Wheelchair{
+    width: 60%;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 20px;
+    }
+    .divider{
+    width: 60%;
+    height: 200px;
+    background-color: #eeddd4;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+}
+
+@media (min-width: 768px) {
+    #HamburgerLogo{
+        display: none;
+        gap: 80px;
+    }
+
+    .large{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+    }
+
+    .small{
+        width: 600px;
+    }
+    
+    #Wheelchair{
+        width: 500px;
+    }
+    #first-section{
+    min-height: 700px;
+    background-color: #4a7c9e;
+    padding-top: 70px;
+    color:#ffffff;
+    padding-left: 5px;
+}
+
+#Burger{
+    width: 0%;
+    height: 0;
+    transform: translateY(-140px);
+    display: flex;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+    transform: translateY(-20%);
+}
+
+.burgerLinks a{
+    color:#333333;
+}
+
+.burgerLinks a:hover{
+    color: #acacac;
+}
+
+.burgerLinks {
+    display: flex;
+    list-style: none;
+    gap: 5%;
+}.values img{
+    width: 35px;
+    margin-top: 10px;
+}
+#Peeps{
+    width: 350px;
+    margin: auto;
+    display: block;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+
+}
+
+@media (min-width: 1024px){
+  #Burger{
+    width: 0%;
+    height: 0;
+    transform: translateY(-140px);
+    display: flex;
+    position: absolute;
+    right: 25%;
+    top: 30%;
+    transform: translateY(-20%);
+}
+
+.burgerLinks a{
+    color:#333333;
+}
+
+.burgerLinks a:hover{
+    color: #acacac;
+}
+
+.burgerLinks {
+    display: flex;
+    list-style: none;
+    gap: 10%;
+}  
+
+.divider{
+    width: 350px;
+    height: 200px;
+    background-color: #eeddd4;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.divv{
+    display: flex;
+}
+
+#com{
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    order: 1;
+}
+
+.aboutdiv{
+    order: 2;
+}
+
+#third-section{
+    width: 100%;
+    min-height: 900px;
+    background-color:#eeddd4;
+}
+.divv2{
+    display: flex;
+    justify-content: center;
+    gap: 60px;;
+}
 }
