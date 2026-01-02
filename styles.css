@@ -222,7 +222,7 @@ header{
 }
 
 #Peeps{
-    width: 350px;
+    width: 98%;
     margin: auto;
     display: block;
     margin-top: 40px;
@@ -236,7 +236,7 @@ header{
 
 fieldset{
     background-color: #eeddd4;
-    width: 250px;
+    width: 90%;
     border-radius: 10px;
     border: none;
     margin: auto;
@@ -246,21 +246,27 @@ fieldset{
     padding-left: 10px;
 }
 
+.Form{
+    display: flex;
+    flex-direction: column;
+}
+
 
 input{
-    width: 220px;
+    width: 95%;
     height: 35px;
     border: none;
     margin-bottom: 40px;
 }
 
 textarea{
-    width: 220px;
+    width: 95%;
     height: 100px;
     border: none;
 }
 
 #submitBtn{
+    margin: auto;
     width: 220px;
     height: 40px;
     margin-top: 20px;
@@ -395,13 +401,6 @@ a {
     width: 35px;
     margin-top: 10px;
 }
-#Peeps{
-    width: 350px;
-    margin: auto;
-    display: block;
-    margin-top: 40px;
-    border-radius: 20px;
-}
 
 
 }
@@ -467,4 +466,24 @@ a {
     justify-content: center;
     gap: 60px;;
 }
+
+#Peeps{
+    width: 40%;
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+fieldset{
+    background-color: #eeddd4;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+
+
 }
