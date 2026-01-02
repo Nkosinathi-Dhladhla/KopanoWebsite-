@@ -21,7 +21,7 @@ main {
 
 header{
     height: 70px;
-    background-color:#eeddd4;
+    background-color:#fff5f5;
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -327,6 +327,25 @@ a {
     list-style: none;
 }
 
+#header{
+    transition: #fff5f5 0.3s ease;
+}
+
+#header.scrolled{
+    background-color: #eeddd4;
+}
+
+.scroller{
+    opacity: 0;               
+    transform: translateY(50px); 
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.scroller.visible {
+    opacity: 1;                
+    transform: translateY(0);    
+}
+
 
 @media(min-width: 601px ){
     #Wheelchair{
@@ -361,6 +380,14 @@ a {
 
     .small{
         width: 600px;
+    }
+
+    .small h1{
+        font-size: 60px;
+    }
+
+    .small p{
+        font-size: 30px;
     }
     
     #Wheelchair{
